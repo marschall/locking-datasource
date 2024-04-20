@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.marschall</groupId>
   <artifactId>locking-datasource</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <inceptionYear>2024</inceptionYear>
   <name>Locking DataSource</name>
   <description>A DataSource where every call to #getConnection() goes through a global lock.</description>
@@ -14,7 +14,7 @@
     <connection>scm:git:git@github.com:marschall/locking-datasource.git</connection>
     <developerConnection>scm:git:git@github.com:marschall/locking-datasource.git</developerConnection>
     <url>${project.url}</url>
-    <tag>1.0.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <developers>
@@ -284,7 +284,7 @@
   </profiles>
 
   <properties>
-    <project.build.outputTimestamp>2024-04-20T12:50:50Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2024-04-20T12:51:02Z</project.build.outputTimestamp>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
