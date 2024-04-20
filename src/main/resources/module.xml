@@ -1,0 +1,8 @@
+<module name="com.github.marschall.nocredential" xmlns="urn:jboss:module:1.9">
+  <resources>
+    <resource-root path="${project.artifactId}-${project.version}.jar" />
+  </resources>
+  <dependencies>
+    <module name="org.wildfly.security.elytron" />
+  </dependencies>
+</module>
